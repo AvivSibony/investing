@@ -1,0 +1,15 @@
+{
+ "name": "@bot/server",
+ "private": true,
+ "scripts": {
+  "test": "NODE_NO_WARNINGS=1 tsx --test test/*.test.ts"
+ },
+ "dependencies": {
+  "ws": "^8.18.0",
+  "pg": "^8.11.0"
+ },
+ "devDependencies": {
+  "tsx": "*",
+  "typescript": "*"
+ }
+}
